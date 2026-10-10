@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cristofer Castaneda | Actor &amp; Model</title>
+<meta name="description" content="Cristofer Castaneda, actor and model based in Provo, Utah. Headshot, stats, availability and contact.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cristofer Castaneda | Actor &amp; Model">
+<meta property="og:description" content="Actor and model based in Provo, Utah. Headshot, stats, availability and contact.">
+<meta property="og:url" content="https://ccasta621.github.io/cristofer_castaneda/">
+<meta property="og:image" content="https://ccasta621.github.io/cristofer_castaneda/headshot.jpg">
+<meta property="og:image:width" content="1282">
+<meta property="og:image:height" content="1456">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://ccasta621.github.io/cristofer_castaneda/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315171A'/%3E%3Crect x='7' y='8' width='18' height='5' fill='%238EA2FF'/%3E%3Crect x='13.5' y='8' width='5' height='16' fill='%238EA2FF'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap">
+<style>
+/* Layout: a digital comp card. Oversized expanded name, headshot set flush beside a sizes card, then label/content rows like a casting resume. */
+:root {
+  --paper: #E7E9EC;      /* cool studio seamless grey */
+  --card: #F7F8F9;
+  --ink: #15171A;
+  --muted: #5A5F67;
+  --rule: #C7CBD1;
+  --tape: #2440C2;       /* cobalt spike tape, the mark on the floor */
+  --tape-ink: #FFFFFF;
+  --font-display: "Archivo", "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-ui: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --step--1: 0.8125rem;
+  --step-0: 1.0625rem;
+  --step-1: 1.25rem;
+  --step-2: clamp(1.3rem, 2.1vw, 1.7rem);
+  --step-name: clamp(2.2rem, 10.8vw, 7.25rem);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #1A1C1F;
+    --card: #23262A;
+    --ink: #EDEFF2;
+    --muted: #A0A6AE;
+    --rule: #393D43;
+    --tape: #8EA2FF;
+    --tape-ink: #0D1120;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #1A1C1F;
+  --card: #23262A;
+  --ink: #EDEFF2;
+  --muted: #A0A6AE;
+  --rule: #393D43;
+  --tape: #8EA2FF;
+  --tape-ink: #0D1120;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-inline: clamp(16px, 4vw, 40px);
+  padding-block: clamp(20px, 4vw, 40px) 48px;
+  display: grid;
+  gap: clamp(28px, 5vw, 56px);
+}
+
+/* labels */
+.eyebrow, .label, dt {
+  font-family: var(--font-ui);
+  font-size: var(--step--1);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* top row */
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+.brand { display: flex; align-items: center; gap: 12px; }
+.mark { position: relative; width: 20px; height: 18px; flex: none; }
+.mark::before, .mark::after { content: ""; position: absolute; background: var(--tape); }
+.mark::before { left: 0; right: 0; top: 0; height: 5px; }
+.mark::after { left: 7.5px; width: 5px; top: 0; bottom: 0; }
+.top .eyebrow { color: var(--ink); }
+
+a { color: inherit; text-decoration-color: var(--tape); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a:hover { color: var(--tape); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--tape); outline-offset: 3px; }
+.ig { font-family: var(--font-ui); font-size: var(--step--1); font-weight: 600; letter-spacing: 0.06em; }
+
+/* name */
+.intro { display: grid; gap: 18px; }
+.name {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--step-name);
+  font-weight: 800;
+  font-stretch: 125%;
+  font-variation-settings: "wdth" 125;
+  line-height: 0.9;
+  letter-spacing: -0.012em;
+  text-transform: uppercase;
+}
+.name span { display: block; }
+.lede {
+  margin: 0;
+  max-width: 46ch;
+  font-size: var(--step-1);
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+/* comp card */
+.card {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  background: var(--card);
+  border: 1px solid var(--rule);
+}
+.photo { margin: 0; display: grid; grid-template-rows: 1fr auto; border-right: 1px solid var(--rule); }
+.photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  aspect-ratio: 1282 / 1456;
+  object-fit: cover;
+  object-position: center 25%;
+}
+.photo figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px 16px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  font-size: var(--step--1);
+  color: var(--muted);
+}
+.photo figcaption a { color: var(--ink); font-weight: 600; }
+
+.details {
+  min-width: 0;
+  padding: clamp(20px, 3vw, 36px);
+  display: grid;
+  align-content: start;
+  gap: 28px;
+}
+.block { display: grid; gap: 12px; align-content: start; }
+.pair { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); align-items: start; gap: 28px 24px; }
+.block > .label { margin: 0; }
+
+dl.sizes {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--rule);
+}
+.sizes > div {
+  padding: 12px 10px 14px 0;
+  border-bottom: 1px solid var(--rule);
+  display: grid;
+  gap: 4px;
+}
+.sizes dt { font-size: 0.72rem; }
+.sizes dd {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  font-weight: 700;
+  font-stretch: 112%;
+  font-variation-settings: "wdth" 112;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.avail {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: var(--step-1);
+  font-weight: 500;
+}
+
+.contact { list-style: none; margin: 0; padding: 0; display: grid; }
+.contact li {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.contact li:first-child { border-top: 1px solid var(--rule); }
+.contact .value {
+  min-width: 0;
+  font-family: var(--font-ui);
+  font-size: var(--step-0);
+  font-weight: 500;
+  overflow-wrap: anywhere;
+  font-variant-numeric: tabular-nums;
+}
+.contact .value a { text-decoration-thickness: 1px; }
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+.btn-sm {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--rule);
+  padding: 6px 10px;
+  min-width: 4.75rem;
+}
+.btn-sm:hover { border-color: var(--ink); }
+.btn-sm.done, .btn.done { border-color: var(--tape); color: var(--tape); }
+
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; }
+.btn {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--tape-ink);
+  background: var(--tape);
+  border: 1px solid var(--tape);
+  padding: 12px 18px;
+}
+.btn:hover { filter: brightness(1.08); }
+.btn.done { background: transparent; }
+.hint { font-family: var(--font-ui); font-size: var(--step--1); color: var(--muted); }
+#cardText {
+  width: 100%;
+  min-height: 11rem;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: 10px;
+  resize: vertical;
+}
+
+/* resume rows */
+.rows { display: grid; }
+.row {
+  display: grid;
+  grid-template-columns: 13rem minmax(0, 1fr);
+  gap: 12px 32px;
+  padding-block: 28px;
+  border-top: 1px solid var(--rule);
+}
+.row:last-child { border-bottom: 1px solid var(--rule); }
+.row h2 { margin: 0; padding-top: 4px; }
+.prose { min-width: 0; max-width: 62ch; display: grid; gap: 14px; }
+.prose p { margin: 0; }
+
+.entry { display: grid; gap: 2px; }
+.entry strong { font-family: var(--font-ui); font-weight: 700; font-size: var(--step-1); }
+.entry span { color: var(--muted); }
+
+.traits {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 0;
+  font-family: var(--font-ui);
+  font-size: var(--step-1);
+  font-weight: 500;
+}
+.traits li { white-space: nowrap; }
+.traits li:not(:last-child)::after {
+  content: "/";
+  color: var(--tape);
+  font-weight: 400;
+  margin-inline: 14px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 24px;
+  font-family: var(--font-ui);
+  font-size: var(--step--1);
+  color: var(--muted);
+}
+
+/* responsive */
+@media (max-width: 860px) {
+  .card { grid-template-columns: minmax(0, 1fr); }
+  .photo { border-right: 0; border-bottom: 1px solid var(--rule); }
+  .photo img { height: auto; }
+}
+@media (max-width: 640px) {
+  dl.sizes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .row { grid-template-columns: minmax(0, 1fr); padding-block: 22px; }
+  .contact li { grid-template-columns: minmax(0, 1fr) auto; }
+  .contact li .label { grid-column: 1 / -1; }
+  .traits { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; }
+  .traits li { white-space: normal; }
+  .traits li::after { content: none !important; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a, .btn-sm, .btn { transition: color .15s ease, border-color .15s ease, background-color .15s ease, filter .15s ease; }
+}
+</style>
+</head>
+<body>
+
+<main class="wrap">
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="eyebrow">Actor &amp; Model, Provo, Utah</span>
+    </div>
+    <a class="ig" href="https://www.instagram.com/ccasta621/" target="_blank" rel="noopener">Instagram @ccasta621 ↗</a>
+  </header>
+
+  <section class="intro" aria-labelledby="name">
+    <h1 class="name" id="name"><span>Cristofer</span><span>Castaneda</span></h1>
+    <p class="lede">New to acting and modeling. Confident, punctual, and a quick learner.</p>
+  </section>
+
+  <section class="card" aria-label="Comp card">
+    <figure class="photo">
+      <img src="headshot.jpg" width="1282" height="1456" alt="Headshot of Cristofer Castaneda, smiling, short brown hair, hazel eyes and a trimmed beard, wearing a grey polo against a dark grey backdrop.">
+      <figcaption>
+        <span>Headshot</span>
+        <a href="headshot.jpg" download="Cristofer_Castaneda_Headshot.jpg">Download headshot ↓</a>
+      </figcaption>
+    </figure>
+
+    <div class="details">
+      <div class="block">
+        <h2 class="label">Stats</h2>
+        <dl class="sizes">
+          <div><dt>Age</dt><dd>24</dd></div>
+          <div><dt>Gender</dt><dd>Male</dd></div>
+          <div><dt>Hair</dt><dd>Brown</dd></div>
+          <div><dt>Eyes</dt><dd>Hazel</dd></div>
+          <div><dt>Height</dt><dd>6′1″</dd></div>
+          <div><dt>Jacket</dt><dd>42–44″</dd></div>
+          <div><dt>Neck</dt><dd>16″</dd></div>
+          <div><dt>Waist</dt><dd>34–36″</dd></div>
+          <div><dt>Inseam</dt><dd>32″</dd></div>
+          <div><dt>Shoe</dt><dd>13</dd></div>
+          <div><dt>Tattoos</dt><dd>None</dd></div>
+          <div><dt>Scars</dt><dd>None</dd></div>
+        </dl>
+      </div>
+
+      <div class="pair">
+        <div class="block">
+          <h2 class="label">Availability</h2>
+          <p class="avail">Most days, 12pm to 10pm</p>
+        </div>
+        <div class="block">
+          <h2 class="label">Based in</h2>
+          <p class="avail">Provo, Utah</p>
+        </div>
+      </div>
+
+      <div class="block">
+        <h2 class="label">Contact</h2>
+        <ul class="contact">
+          <li>
+            <span class="label">Phone</span>
+            <span class="value" id="phone"><a href="tel:+15414901462">(541) 490-1462</a></span>
+            <button class="btn-sm" type="button" id="copyPhone" data-copy="(541) 490-1462" data-target="phone">Copy</button>
+          </li>
+          <li>
+            <span class="label">Email</span>
+            <span class="value" id="email"><a href="mailto:ccasta621@gmail.com">ccasta621@gmail.com</a></span>
+            <button class="btn-sm" type="button" id="copyEmail" data-copy="ccasta621@gmail.com" data-target="email">Copy</button>
+          </li>
+          <li>
+            <span class="label">Instagram</span>
+            <span class="value"><a href="https://www.instagram.com/ccasta621/" target="_blank" rel="noopener">@ccasta621</a></span>
+            <span aria-hidden="true"></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="actions">
+        <button class="btn" type="button" id="copyAll">Copy card details</button>
+        <span class="hint" id="copyHint" aria-live="polite">Stats and contact as plain text, ready to paste.</span>
+      </div>
+      <textarea id="cardText" readonly hidden aria-label="Card details as plain text"></textarea>
+    </div>
+  </section>
+
+  <div class="rows">
+    <section class="row" aria-labelledby="about">
+      <h2 class="label" id="about">About</h2>
+      <div class="prose">
+        <p>Hi, I'm Cristofer. I'm 24, I live in Provo, Utah, and I'm a full time student studying construction and business. I'm new to acting and modeling, so I don't have a long list of credits yet, but I'm a hard worker, I pick things up quickly, and I'm willing to learn whatever the job needs from me.</p>
+        <p>I did speech and debate for four years in high school, so being in front of people and taking direction is something I'm pretty comfortable with. I'm friendly, I show up on time, and I'm good about communicating.</p>
+        <p>As of now I'm on a journey to take care of myself and have fun with life while I still have the chance to, and trying this out is a big part of that. If you think I could be a fit for something you're casting, I'd love to hear about it.</p>
+      </div>
+    </section>
+
+    <section class="row" aria-labelledby="experience">
+      <h2 class="label" id="experience">Experience</h2>
+      <div class="entry">
+        <strong>Speech and Debate</strong>
+        <span>High school, 4 years</span>
+      </div>
+    </section>
+
+    <section class="row" aria-labelledby="working">
+      <h2 class="label" id="working">Working with me</h2>
+      <ul class="traits">
+        <li>Confident</li>
+        <li>Hard working</li>
+        <li>Quick learner</li>
+        <li>Friendly</li>
+        <li>Punctual</li>
+        <li>Communicative</li>
+        <li>Willing to learn</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <span>Stats current as of October 2026</span>
+    <span>Cristofer Castaneda, Actor &amp; Model</span>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var CARD = [
+    'Cristofer Castaneda',
+    'Male, 24, based in Provo, Utah',
+    'Hair Brown | Eyes Hazel | No tattoos | No scars',
+    'Height 6\'1" | Jacket 42-44" | Neck 16" | Waist 34-36" | Inseam 32" | Shoe 13',
+    'Phone (541) 490-1462',
+    'Email ccasta621@gmail.com',
+    'Instagram @ccasta621',
+    'Available most days, 12pm to 10pm'
+  ].join('\n');
+
+  function flash(btn, text, original) {
+    btn.textContent = text;
+    btn.classList.add('done');
+    clearTimeout(btn._t);
+    btn._t = setTimeout(function () {
+      btn.textContent = original;
+      btn.classList.remove('done');
+    }, 1800);
+  }
+
+  function selectNode(node) {
+    try {
+      var range = document.createRange();
+      range.selectNodeContents(node);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    } catch (e) {}
+  }
+
+  function copyText(text, onOk, onFail) {
+    try {
+      if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error('no clipboard');
+      navigator.clipboard.writeText(text).then(onOk, onFail);
+    } catch (e) { onFail(); }
+  }
+
+  document.querySelectorAll('.btn-sm[data-copy]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = document.getElementById(btn.dataset.target);
+      copyText(btn.dataset.copy,
+        function () { flash(btn, 'Copied', 'Copy'); },
+        function () { selectNode(target); flash(btn, 'Selected', 'Copy'); });
+    });
+  });
+
+  var all = document.getElementById('copyAll');
+  var hint = document.getElementById('copyHint');
+  var area = document.getElementById('cardText');
+  area.value = CARD;
+  all.addEventListener('click', function () {
+    copyText(CARD,
+      function () {
+        flash(all, 'Copied', 'Copy card details');
+        hint.textContent = 'Copied. Paste it into your notes or casting sheet.';
+      },
+      function () {
+        area.hidden = false;
+        area.focus();
+        area.select();
+        hint.textContent = 'Your browser blocked copying, so the text is selected below. Press Ctrl+C or Cmd+C.';
+      });
+  });
+})();
+</script>
+</body>
+</html>
